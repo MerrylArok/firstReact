@@ -1,0 +1,75 @@
+main {
+  margin: 30px auto;
+  font-family: Inter, sans-serif;
+  box-sizing: border-box;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #1A1B21;
+  text-align: center;
+}
+
+.profilePic {
+  width: 100%;
+}
+
+section {
+  padding: 40px 50px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.buttonContainer {
+  margin: 1.5rem 0 2.5rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonContainer>a {
+  color: black;
+  display: inline-block;
+  padding: 0.5rem;
+  min-width: 100px;
+  border-radius: 5px;
+  background-color: white;
+
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0;
+}
+
+h2,
+p {
+  text-align: left;
+  margin:0;
+}
+
+h2{
+  margin:1rem 0 0.5rem 0;
+}
+
+.jobTitle {
+  font-size: 12.8px;
+  font-weight: 400;
+  color: #F3BF99;
+  margin: 0.5rem 0 0 0;
+}
+
+section > a{
+  font-size: 10.4px;
+  margin:0;
+}
+
+footer{
+  height:50px;
+  background-color: #161619;  
+}
